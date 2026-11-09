@@ -39,7 +39,7 @@ class workjob:
             print("\033[0m| \033[91mWrong!\033[0m")
             return False
 def main():
-    money=float(input("Start with ").replace(",","").replace("$",""))
+    money=float(input("Start with $").replace(",","").replace("$",""))
     bank=0
     lastbank=time.time()
     gamblerate=0.5
